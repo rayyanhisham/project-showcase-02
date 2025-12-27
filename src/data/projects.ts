@@ -28,7 +28,7 @@ export const projects: Project[] = [
       "Planned production-version: before 2026-01-01",
       "Focus: manufacturability, belt tensioning, shaft alignment",
     ],
-    images: ["/3.png"],
+    images: ["/AISRA.png"],
   },
   {
     id: "payload-retriever",
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     tags: ["Robotics", "Mechanisms", "CAD"],
     tools: ["SolidWorks", "3D Printing", "Arduino"],
     specifications: ["Lift weight: ~7 lbs", "Retriever weight: ~3 lbs"],
-    images: ["/4.png"],
+    images: ["/WeightRetreiverLift.png"],
   },
   {
     id: "thrust-vectored-rocket",
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     tags: ["Analysis", "MATLAB", "Structural"],
     tools: ["MATLAB"],
     specifications: ["2D truss analysis", "Graphical plot output"],
-    images: ["/6.png"],
+    images: ["Truss.png"],
   },
   {
     id: "cnn-research",

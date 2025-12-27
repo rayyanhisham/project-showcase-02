@@ -44,9 +44,9 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Contact Form */}
-            <Card>
+          <div className="grid md:grid-cols-1">
+            {/* Contact Form */};
+            {/* <Card>
               <CardHeader>
                 <CardTitle>Send a Message</CardTitle>
               </CardHeader>
@@ -93,30 +93,30 @@ const Contact = () => {
                   </Button>
                 </form>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* Contact Info */}
-            <div className="space-y-6">
+            <div className="space-y-12">
               <Card>
-                <CardContent className="pt-6">
-                  <div className="space-y-6">
+                <CardContent className="pt-12">
+                  <div className="space-y-12">
                     <a
-                      href="mailto:email@example.com"
+                      href="mailto:rayyanhisham@outlook.com"
                       className="flex items-center gap-4 p-4 rounded-lg hover:bg-secondary transition-colors"
-                    >
+                      >
                       <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                         <Mail className="text-primary" size={20} />
                       </div>
                       <div>
                         <p className="font-medium">Email</p>
                         <p className="text-sm text-muted-foreground">
-                          email@example.com
+                          rayyanhisham@outlook.com
                         </p>
                       </div>
                     </a>
 
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/rayyanhisham/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-4 p-4 rounded-lg hover:bg-secondary transition-colors"
